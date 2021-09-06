@@ -11,3 +11,5 @@ count = 0
 while count < 5:
     print(name_list[count] + " is awesome!")
     count += 1
+
+input("Press Enter to exit")
