@@ -29,12 +29,13 @@ def final_message(input_grade):
         output_message = "How awful."
     return output_message
 
+# Take the inputs for name & scores
 student_name = input("Enter name: ")
 hw_score = int(input("Enter homework score (out of 25): "))
 assess_score = int(input("Enter assessment score (out of 50): "))
 exam_score = int(input("Enter exam score (out of 100): "))
 
-# Calling functions to generate percentage,grade, and message based on inputs
+# Calling functions to generate percentage, grade, and message based on inputs
 percentage = overall_percentage(hw_score, assess_score, exam_score)
 grade = overall_grade(percentage)
 message = final_message(grade)
