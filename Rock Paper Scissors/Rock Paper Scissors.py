@@ -72,3 +72,5 @@ else:
     lose_message = """Unfortunately you have lost :'(
 Sit and come to terms with the misery of your defeat or press Enter to exit.
 """
+    nicetype(lose_message)
+    input("")
